@@ -1,56 +1,34 @@
-%% The MIT License (MIT)
-%%
-%% Copyright (c) 2015 Daniil Belyakov
-%%
-%% Permission is hereby granted, free of charge, to any person obtaining a copy
-%% of this software and associated documentation files (the "Software"), to deal
-%% in the Software without restriction, including without limitation the rights
-%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%% copies of the Software, and to permit persons to whom the Software is
-%% furnished to do so, subject to the following conditions:
-%%
-%% The above copyright notice and this permission notice shall be included in all
-%% copies or substantial portions of the Software.
-%%
-%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-%% SOFTWARE.
-
-% The font could be set to Windows-specific Calibri by using the 'calibri' option
 \documentclass[]{mcdowellcv}
 
 \usepackage{url}
 \usepackage{hyperref}
 
-% Set applicant's personal data for header
 \name{Josh Spangler}
-\address{21308 Arrowhead CT, \linebreak Ashburn, VA 20147 \linebreak}
-\contacts{(571) 328-8373 \linebreak \mbox{\hspace{-2em} joshman.spangler@gmail.com} \linebreak GitHub: jspangl3r}
+\address{21308 Arrowhead CT, \linebreak Ashburn VA 20147 \linebreak Phone: 571-328-8373}
+\contacts{\mbox{\hspace{-2em} joshman.spangler@gmail.com} \linebreak \mbox{LinkedIn: joshspangler1499} \linebreak GitHub: jspangl3r}
 
 \begin{document}
 
 	\makeheader
 	
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Rochester, NY}{\mbox{Rochester Institute of Technology}}{Aug 2017 -- Dec 2021}
+	\begin{cvsection}{Skills}
+		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item Bachelor of Science in Computer Science \hfill \textit{GPA: 3.78}
-				\item Minor in Mathematics
-				\item Relevant Coursework: Data Structures, Analysis of Algorithms, Computer Science Theory, Principles of Data Management, Software Engineering, Parallel \& Distributed Systems, Artificial Intelligence, 
-				Cryptography, Data Mining, Operating Systems
+				\item Languages: TypeScript/JavaScript, HTML, CSS/SCSS/Sass, Java, SQL, Python, Bash/Shell/PowerShell, C, C\#, Assembly (MIPS), Haskell
+				\item Frameworks \& Libraries: Node.js, Java Spring, Vue.js, React, React Redux, Jest, TensorFlow
+				\item Tools: Git, Unix (Ubuntu, Amazon Linux, CentOS), PostgreSQL, npm, Postman, Swagger, AWS (CloudFormation, EC2, S3, Athena), Gradle, Maven, GitHub, Atlassian suite
+				\item Protocols: HTTP (GET, PUT, POST, etc.), TCP, UDP, OAuth 2.0
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
+
 	\begin{cvsection}{Employment}
 		\begin{cvsubsection}{Software Engineer}{NS2 Mission}{Jan 2021 -- Present}	
 			\begin{itemize}
-				\item Full stack developer using Vue, TypeScript, Java, SQL, Git
-				\item Work primarily on frontend web applications using RESTful APIs with occasional backend work
+				\item Full stack developer using Vue, TypeScript, Java, SQL/mySQL, Git, Swagger, HTTP, Gradle, Maven, AWS, Atlassian suite
+				\item Developed and maintained various web applications as well as supporting API
+				\item Developed main metrics page to allow users to view, create, and share metric dashboards to monitor various components of the applications
+				\item Participated in many pair programming sessions, feature presentations, code reviews, and mentoring sessions
 			\end{itemize}
 		\end{cvsubsection}
 
@@ -66,33 +44,34 @@
 		\begin{cvsubsection}{Discord Bot}{}{2019 -- Present}
 			\textit{\url{https://github.com/jspangl3r/LadBot}}
 			\begin{itemize}
-				\item Actively mantains a Discord bot written in Node.js and Python
-				\item Has various commands such as user/server information, message quoting, trivia game support, and user "mimic" AI models built using OpenAI's GPT-2 that generate messages based on how the user types using their chat history
+				\item Actively mantains a Discord bot written in TypeScript/JavaScript and Python
+				\item Has various commands such as user/server information, message quoting, trivia game support, and user "mimic" AI models built using OpenAI's GPT-2 that generate messages based on chat history
 			\end{itemize}
 		\end{cvsubsection}
 
 		\begin{cvsubsection}{Automobile Database}{}{Spring 2019}
 			\textit{\url{https://github.com/jspangl3r/CSCI-320-Project}}
 			\begin{itemize}
-				\item Helped develop a database (using the H2 engine) and a Java application for managing dealers, inventory, and sales for a fictitious car company
-				\item Included features such as dealer sign in, order from manufacturer, vehicle locator services, sales history logging, and an administrator SQL interface
+				\item Developed H2 engine database for managing dealers, inventory, and sales for a fictitious car company
+				\item Developed UI app: dealer sign in, order from manufacturer, and an administrator SQL interface
 			\end{itemize}
 		\end{cvsubsection}
 
 		\begin{cvsubsection}{Webcheckers}{}{Fall 2018}
 			\begin{itemize}
-				\item Helped develop an online Checkers game built in Java 8 and Java Spark for a semester-long software engineering group project
+				\item Developed an online Checkers game built in Java 8 and Java Spark
 				\item Supported online features such as asynchronous play and multiple game support
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
-	\begin{cvsection}{Skills}
-		\begin{cvsubsection}{}{}{}	
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Rochester, NY}{\mbox{Rochester Institute of Technology}}{Aug 2017 -- Dec 2021}
 			\begin{itemize}
-				\item Languages: TypeScript/JavaScript, HTML, CSS, Java, SQL, Python, C, C\#, Haskell
-				\item Frameworks \& Libraries: Node.js, Java Spring, Vue.js, React
-				\item Tools: Git/GitHub/BitBucket, AWS, Gradle, Maven, Jira, Unix
+				\item Bachelor of Science in Computer Science \hfill \textit{GPA: 3.78, magna cum laude}
+				\item Minor in Mathematics
+				\item Relevant Coursework: Data Structures, Analysis of Algorithms, Computer Science Theory, Principles of Data Management, Software Engineering, Parallel \& Distributed Systems, Artificial Intelligence, 
+				Cryptography, Data Mining, Operating Systems
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
