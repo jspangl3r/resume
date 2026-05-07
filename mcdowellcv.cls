@@ -22,11 +22,11 @@
 \ProvidesClass{mcdowellcv}[2015/12/15 v1.0.0 McDowell CV class]
 
 % Set up the fonts according to options
-\def\mainfontsize{11pt}
+\def\mainfontsize{10pt}
 \def\mainfontface{Computer Modern Roman}
 
 \DeclareOption{calibri}{%
-  \def\mainfontsize{11pt}
+  \def\mainfontsize{10pt}
   \def\mainfontface{Calibri}
 }
 
